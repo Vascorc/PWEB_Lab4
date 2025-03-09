@@ -1,0 +1,142 @@
+/*-----laia---------*/
+.header {
+  background-color: #d2f5fe;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial;
+  margin: 40px auto;
+  padding: 20px 40px;
+  border: 5px solid #000000;
+  border-radius: 20px;
+}
+
+
+.ref :hover {
+  background-color: #8972ff;
+  border-radius: 5px;
+}
+
+.artigo {
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.textsubtitulo {
+  font-size: 16px;
+  color: rgb(0, 54, 72);
+}
+
+.subtitulos {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: Arial;
+  background-color: #000000;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#footer {
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
+}
+
+#footer:hover {
+  background-color: #00ec1c;
+}
+
+/*
+.campos {
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #efefef;
+  text-align: center;
+  width: 100%;
+  outline: none; /* Remove a borda padrão do navegador 
+}
+
+
+.campos input:focus,
+.campos textarea:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 8px #007bff; /* Sombra azul 
+  background-color: #f8f9fa; 
+}
+
+#message {
+  width: 50%; /* largura do formulário 
+  height: 100px;  Ajusta a altura do campo de mensagem 
+}*/
+
+/*----------vasco-----------*/
+
+.nav{
+  padding: 20px ;
+}
+
+.nav:hover{
+  background-color: #8972ff;
+  border-radius: 50px;
+}
+
+.artigoseaside{
+  display: flex;
+}
+
+.section {
+  flex:0;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.aside {
+  flex:0;
+  text-align: center;
+  align-items: stretch;
+  margin: auto 0;
+  background-color: #dddddd;
+  padding: 20px ;
+  border-radius: 20px;
+
+}
+
+
+/*-----basilio----------*/
+
+.contact-form {
+text-align: center;
+}
+
+.btn-enviar {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-enviar:hover {
+  background-color: #2980b9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.campos input, .campos textarea {
+  padding: 8px; 
+  margin-bottom: 10px; 
+  border: 1px solid #ccc;     /* Borda leve */
+  border-radius: 5px;         /* Bordas arredondadas */
+  transition: border-color 0.3s; /* Suaviza transições */
+}
+
+.campos input:focus, .campos textarea:focus {
+  border-color: #3498db;      /* Borda azul no foco */
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Sombra azul no foco */
+  }
